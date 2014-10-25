@@ -1,0 +1,13 @@
+applications:
+- services:
+  - microblog:mongo
+  - ramusa:Push
+  - ramusa:MobileData
+  disk_quota: 1024M
+  host: ramusa
+  name: ramusa
+  command: node app.js
+  path: .
+  domain: ng.bluemix.net
+  instances: 1
+  memory: 128M

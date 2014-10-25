@@ -11,6 +11,7 @@
     "express-partials": "*",
     "mongodb": "*",
     "connect-mongo": "*",
-    "connect-flash": "*"
+    "connect-flash": "*",
+    "cloudfoundry": "~0.1.0"
   }
 }

@@ -8,5 +8,5 @@
 module.exports = {
     cookieSecret:'microblogtest',
     db:'microblog',
-    host:'localhost'
+    host:'170.224.194.236'
 };
